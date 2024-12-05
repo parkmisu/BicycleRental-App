@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#7DB249">
+        <ImageButton
+            android:id="@+id/btnmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7DB249"
+            android:src="@drawable/menubtn1" />
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="274dp"
+            android:src="@drawable/logoimageee" />
+
+        <ImageButton
+            android:id="@+id/btnguide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7DB249"
+            android:src="@drawable/guidebtn1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:text= "예약 정보 확인"
+            android:background="#7DB249"/>
+        <TableLayout
+            android:layout_width="350dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/table_outside">
+            <TableRow
+                android:layout_width="150dp"
+                android:layout_height="70dp">
+              <TextView
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:textSize="20dp"
+                android:text="대여소"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
+
+              <TextView
+                  android:layout_width="150dp"
+                  android:layout_height="55dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/PlaceSave"
+                android:text="예약 정보 없음"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginRight="10dp"/>
+        </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/black" />
+
+        <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:textSize="20dp"
+            android:text="자전거"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/BikeSave"
+            android:text="예약 정보 없음"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+       </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/black" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:textSize="20dp"
+                android:text="시간"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/TimeSave"
+                android:text="예약 정보 없음"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"/>
+        </TableRow>
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:paddingLeft="120dp">
+            <Button
+                android:id="@+id/R_OKbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:layout_marginTop="20dp"
+                android:text="확인"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#167DB249"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/R_Cancelbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:layout_marginTop="20dp"
+                android:text="예약 취소"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#167DB249"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:background="#7DB429">
+    </LinearLayout>
+</LinearLayout>
+

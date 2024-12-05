@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemberLoginActivity"
+    android:orientation="vertical">
+    <!-- 이미지를 통해 액션바 생성-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#7DB249">
+        <ImageButton
+            android:id="@+id/btnmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7DB249"
+            android:src="@drawable/menubtn1" />
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="274dp"
+            android:src="@drawable/logoimageee" />
+        <ImageButton
+            android:id="@+id/btnguide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7DB249"
+            android:src="@drawable/guidebtn1" />
+    </LinearLayout>
+
+    <!-- "아이디" 글씨 출력하는 TextView와 아이디 입력창 EditText-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="200dp"
+        android:backgroundTint="@color/white">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="아이디"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/editTextLoginId"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="아이디를 입력해주세요."
+            android:inputType="text"
+            android:background="@drawable/styles"/>
+    </LinearLayout>
+
+    <!-- "비밀번호" 글씨 출력하는 TextView와 비밀번호 입력창 EditText-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text="비밀번호"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/editTextLoginPasswd"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="패스워드를 입력해주세요."
+            android:inputType="textPassword"
+            android:background="@drawable/styles"
+            android:layout_marginRight="15dp"/>
+    </LinearLayout>
+
+    <!--main 화면으로 이동하는 "로그인"버튼과 회원 가입 화면으로 이동하는 "회원 가입" 버튼-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingLeft="120dp">
+        <Button
+            android:id="@+id/buttonDoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="20dp"
+            android:text="로그인"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#167DB249"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/buttonJoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="20dp"
+            android:text="회원 가입"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#167DB249"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <!-- 이미지를 통해 하단에 액션바 생성-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="#7DB429"
+        android:layout_marginTop="200dp">
+
+        <ImageButton
+            android:id="@+id/rentbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#7DB429"
+            android:src="@drawable/mainbtnimg" />
+    </LinearLayout>
+</LinearLayout>
+
+
+

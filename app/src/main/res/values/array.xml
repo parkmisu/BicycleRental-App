@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="PlaceOptions">
+        <item>서울역 서부</item>
+        <item>서울역 12번 출구 앞</item>
+        <item>서울역 9번 출구</item>
+        <item>서울역 4번 출구</item>
+        <item>서울역 3번 출구</item>
+        <item>SK 남산빌딩</item>
+        <item>서울역 서부차로2</item>
+        <item>도동삼거리</item>
+        <item>브라운스톤 남산 아파트</item>
+        <item>염천교 사거리</item>
+        <item>종로학원본원</item>
+        <item>대한상공회의소</item>
+        <item>호암아트홀</item>
+        <item>청파동입구 교차로</item>
+        <item>서울역 센트럴 자이 아파트</item>
+        <item>SK 리체블</item>
+        <item>충정2교</item>
+        <item>회현역 7번 출구</item>
+        <item>회현역 1번 출구</item>
+
+
+    </string-array>
+
+    <string-array name="BikeOptions">
+        <item>자전거1</item>
+        <item>자전거2</item>
+        <item>자전거3</item>
+        <item>자전거4</item>
+        <item>자전거5</item>
+        <item>자전거6</item>
+        <item>자전거7</item>
+        <item>자전거8</item>
+        <item>자전거9</item>
+        <item>자전거10</item>
+        <item>자전거11</item>
+        <item>자전거12</item>
+        <item>자전거13</item>
+        <item>자전거14</item>
+        <item>자전거15</item>
+        <item>자전거16</item>
+        <item>자전거17</item>
+        <item>자전거18</item>
+        <item>자전거19</item>
+        <item>자전거20</item>
+
+
+    </string-array>
+</resources>

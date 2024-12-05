@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#7DB249">
+        <ImageButton
+            android:id="@+id/btnmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7DB249"
+            android:src="@drawable/menubtn1" />
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="274dp"
+            android:src="@drawable/logoimageee" />
+
+        <ImageButton
+            android:id="@+id/btnguide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7DB249"
+            android:src="@drawable/guidebtn1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:backgroundTint="@color/white">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/guideimgview"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="#7DB429">
+
+        <ImageButton
+            android:id="@+id/rentbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#7DB429"
+            android:src="@drawable/mainbtnimg" />
+    </LinearLayout>
+
+</LinearLayout>

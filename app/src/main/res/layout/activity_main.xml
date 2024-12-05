@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#7DB249">
+        <ImageButton
+            android:id="@+id/btnmenu"
+            android:layout_width="64dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:src="@drawable/menubtn1" />
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="274dp"
+            android:layout_height="80dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:src="@drawable/logoimageee" />
+
+        <ImageButton
+            android:id="@+id/btnguide"
+            android:layout_width="64dp"
+            android:layout_height="80dp"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:src="@drawable/guidebtn1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/linearLayoutTmap"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:id="@+id/rentbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#7DB429"
+            android:src="@drawable/mainbtnimg" />
+    </LinearLayout>
+</LinearLayout>

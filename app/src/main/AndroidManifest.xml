@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tmaptest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoimageee"
+        android:label="따르릉"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".GuideActivity"></activity>
+        <activity android:name=".MainActivity" /> <!-- intent filter를 IntroActivity 안으로 추가하여 가장 먼저 화면에 나타나도록 함 ! -->
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".RentActivity" />
+        <activity android:name=".MemberJoinActivity" />
+        <activity android:name=".MemberLoginActivity" />
+        <activity android:name=".RentSaveActivity" />
+    </application>
+
+</manifest>
